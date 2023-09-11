@@ -1,0 +1,10 @@
+# Area and perim of rectangle
+
+print('Hello Devops!')
+
+lengthRectangle = int(input("Please enter length of rectangle"))
+print(lengthRectangle)
+widthRectangle = int(input("Please enter width of rectangle"))
+print(widthRectangle)
+
+#print('perimeter of rectangle = '2*(le))
