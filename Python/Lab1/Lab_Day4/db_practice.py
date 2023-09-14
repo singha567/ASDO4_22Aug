@@ -47,5 +47,6 @@ result = cur.execute('SELECT first_name, salary FROM salesperson where dept_no =
 for row in result:
     print(row)
 
+
 conn.close()
 
