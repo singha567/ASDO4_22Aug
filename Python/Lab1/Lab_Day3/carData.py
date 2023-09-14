@@ -34,4 +34,5 @@ for i in carsale:
     print(i)
 #print(carsale)
 print('grand total of sales =>  ',grand_total)
- 
+
+fileobjectvar.close() 
