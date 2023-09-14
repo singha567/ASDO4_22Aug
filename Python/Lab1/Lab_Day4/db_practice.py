@@ -37,6 +37,11 @@ result = cur.execute('SELECT first_name, salary FROM salesperson where dept_no i
 for row in result:
     print(row)
 
+print('****** not in NULL ****')
+result = cur.execute('SELECT first_name, post_code FROM salesperson where post_code not in (\'\')').fetchall()
+for row in result:
+    print(row)
+
 print('****** = ****')
 result = cur.execute('SELECT first_name, salary FROM salesperson where dept_no = 2').fetchall()
 for row in result:
