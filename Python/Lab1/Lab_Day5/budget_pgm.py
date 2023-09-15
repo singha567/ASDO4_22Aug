@@ -45,10 +45,10 @@ food_budget.withdrawFunds()
 # Clothing budget
 clothing_budget = Budget("Clothing",70)
 
-# Deposit funds into the pot:
+# Deposit 
 clothing_budget.depositFunds()
 
-# Withdraw funds from the pot:
+# Withdraw 
 clothing_budget.withdrawFunds()
 
 #**************
@@ -56,10 +56,10 @@ clothing_budget.withdrawFunds()
 # Entertainment budget
 entertainment_budget = Budget("Entertainment",100)
 
-# Deposit funds into the pot:
+# Deposit 
 entertainment_budget.depositFunds()
 
-# Withdraw funds from the pot:
+# Withdraw 
 entertainment_budget.withdrawFunds()
 
 #======
