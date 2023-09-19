@@ -32,3 +32,8 @@ def result_str(text,n):
 print("final result = ",result_str("abcde",2))
 print("final result = ",result_str('a',4))
 
+def is_vowel(char):
+    all_vowels = 'aeiou'
+    return char in all_vowels
+print(is_vowel('c'))
+print(is_vowel('e'))
